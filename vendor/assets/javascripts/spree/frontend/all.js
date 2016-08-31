@@ -9,8 +9,6 @@
 //= require spree/frontend
 
 //= require_tree .
-<<<<<<< HEAD
 //= require spree/product_zoom
-=======
 //= require spree/frontend/spree_auth
->>>>>>> f91b606c765e70f48bd3a03c908cd6f118cd41ab
+
