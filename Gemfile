@@ -16,6 +16,8 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'spree', '~> 3.1.0'
 gem 'spree_auth_devise', '~> 3.1.0'
 gem 'spree_gateway', '~> 3.1.0'
+gem "spree_product_zoom", :git => "git://github.com/spree/spree_product_zoom.git"
+
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
