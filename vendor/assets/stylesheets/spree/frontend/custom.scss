@@ -24,6 +24,7 @@ body {
   width: 100%;
   height: 100px;
   background: #1c5c92 url(/assets/spree_header-198b754a34f1428c25f64303be8ac2aae84a076433af18ca55b65d7cbf1a0e13.jpg) center center;
+<<<<<<< HEAD
   background-size: cover;
   color: white !important;
 }
@@ -72,4 +73,14 @@ footer .footer_title {
 header#header {
 	padding: 10px !important;
 	padding-top: 19px !important;
+
+  
+  p {
+		padding-top: 15px;
+    color: white;
+	}
+}
+
+
+li#link-to-cart {
 }
