@@ -16,3 +16,32 @@
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+a#logo {
+	color: white;
+	display: inline-block;
+	float: left;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	line-height: 20px;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 60px;
+}
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background: #1c5c92 url(/assets/spree_header-198b754a34f1428c25f64303be8ac2aae84a076433af18ca55b65d7cbf1a0e13.jpg) center center;
+  
+  p {
+		padding-top: 15px;
+    color: white;
+	}
+}

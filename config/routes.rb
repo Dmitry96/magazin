@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
 
+  match '/about', to: 'static_pages#about', via: 'get'
+  match '/user-agreement', to: 'static_pages#user_agreement', via: 'get'
+  match '/policy', to: 'static_pages#policy', via: 'get'
+  
   # This line mounts Spree's routes at the root of your application.
   # This means, any requests to URLs such as /products, will go to Spree::ProductsController.
   # If you would like to change where this engine is mounted, simply change the :at option to something different.

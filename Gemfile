@@ -1,7 +1,5 @@
 source 'https://rubygems.org'
 
-
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
 # Use sqlite3 as the database for Active Record
@@ -19,7 +17,7 @@ gem 'spree', '~> 3.1.0'
 gem 'spree_auth_devise', '~> 3.1.0'
 gem 'spree_gateway', '~> 3.1.0'
 gem "spree_product_zoom", :git => "git://github.com/spree/spree_product_zoom.git"
-
+gem 'spree_static_content', :git => "git://github.com/spree-contrib/spree_static_content.git"
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
