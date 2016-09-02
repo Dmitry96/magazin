@@ -7,3 +7,5 @@ def my_taxons_tree(root_taxon, current_taxon, max_level = 1)
   end
 	safe_join(taxons, "\n")
 end
+
+
